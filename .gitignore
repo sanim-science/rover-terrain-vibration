@@ -1,0 +1,10 @@
+data/
+hf_dataset/
+__pycache__/
+*.pyc
+results/predictions.npz
+results/baselines_run1.json
+data_full/
+.venv/
+results/mem_log.txt
+data_full/features_cache.npz

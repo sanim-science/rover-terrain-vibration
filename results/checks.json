@@ -1,0 +1,443 @@
+{
+ "static": {
+  "acc_mean": [
+   2.5612248326358185e-06,
+   -5.8960357541556e-08,
+   9.809999997646093
+  ],
+  "acc_std": [
+   1.910165220391361e-06,
+   4.131832631865225e-08,
+   3.6656584531728616e-09
+  ],
+  "gyro_mean": [
+   -1.744996782930337e-11,
+   -3.41003457821716e-08,
+   1.7880485480888665e-06
+  ]
+ },
+ "washboard": [
+  {
+   "speed": 0.6,
+   "v_true": 0.5982607130998613,
+   "wavelength": 0.1885710608307599,
+   "expected_hz": 3.1726008776966714,
+   "peak_hz": 3.22265625
+  },
+  {
+   "speed": 1.2,
+   "v_true": 1.1969339760733952,
+   "wavelength": 0.1885710608307599,
+   "expected_hz": 6.347389524141396,
+   "peak_hz": 6.494140625
+  },
+  {
+   "speed": 1.8,
+   "v_true": 1.7983822207410045,
+   "wavelength": 0.1885710608307599,
+   "expected_hz": 9.536894011298104,
+   "peak_hz": 9.86328125
+  },
+  {
+   "speed": 2.4,
+   "v_true": 2.412027709962732,
+   "wavelength": 0.1885710608307599,
+   "expected_hz": 12.791080982078665,
+   "peak_hz": 13.18359375
+  }
+ ],
+ "noise": [
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 100,
+   "az_std": 7.221920222988323,
+   "ax_std": 1.3478076228520783,
+   "gy_std": 0.2659349074137554
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 200,
+   "az_std": 1.0061426564127047,
+   "ax_std": 0.5465392729887658,
+   "gy_std": 0.03145561426669062
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 400,
+   "az_std": 1.2103226207410707,
+   "ax_std": 0.5046537752039723,
+   "gy_std": 0.031272020408463344
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 1000,
+   "az_std": 2.4381385960757678,
+   "ax_std": 0.5954959013760104,
+   "gy_std": 0.04193925607083029
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 2000,
+   "az_std": 2.7833050729333153,
+   "ax_std": 0.7534374188205926,
+   "gy_std": 0.037377917814112566
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 100,
+   "az_std": 2.6621454376433493,
+   "ax_std": 0.894084158039642,
+   "gy_std": 0.1457845109875681
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 200,
+   "az_std": 1.0517136508750464,
+   "ax_std": 0.43226169731259434,
+   "gy_std": 0.03979429926153736
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 400,
+   "az_std": 1.1673662205810096,
+   "ax_std": 0.45972922890478973,
+   "gy_std": 0.05073643365440224
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 1000,
+   "az_std": 0.9260070770179554,
+   "ax_std": 0.3920306515975352,
+   "gy_std": 0.04009317186425923
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 2000,
+   "az_std": 0.8243249844412575,
+   "ax_std": 0.23416687531447022,
+   "gy_std": 0.026686435466387066
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 100,
+   "az_std": 9.142008748072838,
+   "ax_std": 2.6609838439690567,
+   "gy_std": 0.8110840231393769
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 200,
+   "az_std": 8.549467783877782,
+   "ax_std": 1.0202188320070533,
+   "gy_std": 0.20929974905783144
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 400,
+   "az_std": 1.5588373745223432,
+   "ax_std": 0.42824015766383544,
+   "gy_std": 0.04773546467880401
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 1000,
+   "az_std": 0.04302122192177518,
+   "ax_std": 0.07030582391208898,
+   "gy_std": 0.001927885838624688
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 2000,
+   "az_std": 0.002260526905120239,
+   "ax_std": 0.014518280624970237,
+   "gy_std": 0.0003608614686598402
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 100,
+   "az_std": 5.667463178653909,
+   "ax_std": 1.2565334202996274,
+   "gy_std": 0.3169577460830825
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 200,
+   "az_std": 1.1977676289251227,
+   "ax_std": 0.5501440869900044,
+   "gy_std": 0.059757918488932166
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 400,
+   "az_std": 1.079257794172583,
+   "ax_std": 0.45269600226427364,
+   "gy_std": 0.046956544656316414
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 1000,
+   "az_std": 0.8871438230280627,
+   "ax_std": 0.30531749697493454,
+   "gy_std": 0.041439643128173054
+  },
+  {
+   "ground": "heightfield",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 2000,
+   "az_std": 0.6054960743105073,
+   "ax_std": 0.21320424350394557,
+   "gy_std": 0.026311712289128854
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 100,
+   "az_std": 3.436758227980839,
+   "ax_std": 1.0803133386509314,
+   "gy_std": 0.18959865648897592
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 200,
+   "az_std": 2.725803690600743,
+   "ax_std": 0.8978571377242376,
+   "gy_std": 0.12659815560496077
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 400,
+   "az_std": 2.3681630068251485,
+   "ax_std": 0.5049903424173888,
+   "gy_std": 0.038112717308594904
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 1000,
+   "az_std": 2.07242266346442,
+   "ax_std": 0.8944766100027162,
+   "gy_std": 0.04717346654591102
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "rigid",
+   "phys_hz": 2000,
+   "az_std": 2.3561784625101643,
+   "ax_std": 0.8212307149331657,
+   "gy_std": 0.04639316472886512
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 100,
+   "az_std": 1.8114164489896587,
+   "ax_std": 0.5999689883250773,
+   "gy_std": 0.130734173557372
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 200,
+   "az_std": 1.9632309336522114,
+   "ax_std": 0.8597501657331478,
+   "gy_std": 0.10638510135055912
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 400,
+   "az_std": 0.9253738433445341,
+   "ax_std": 0.5999985178292396,
+   "gy_std": 0.06758193748846952
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 1000,
+   "az_std": 0.5611350480211887,
+   "ax_std": 0.306711386262864,
+   "gy_std": 0.04474802264989131
+  },
+  {
+   "ground": "plane",
+   "wheel": "cylinder",
+   "contact": "soft",
+   "phys_hz": 2000,
+   "az_std": 0.48970824500159293,
+   "ax_std": 0.17804763188277267,
+   "gy_std": 0.02321691751161928
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 100,
+   "az_std": 1.636963493448171e-09,
+   "ax_std": 4.202759890185032e-09,
+   "gy_std": 6.789636285752088e-10
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 200,
+   "az_std": 1.9451516796414012e-11,
+   "ax_std": 4.233989559544252e-09,
+   "gy_std": 3.022662320768825e-11
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 400,
+   "az_std": 1.2968680643743913e-11,
+   "ax_std": 5.1316831750933535e-09,
+   "gy_std": 1.2812110309887555e-11
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 1000,
+   "az_std": 5.3234767368158505e-12,
+   "ax_std": 3.5108083342983886e-09,
+   "gy_std": 2.1717893201154205e-12
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "rigid",
+   "phys_hz": 2000,
+   "az_std": 5.457204318816348e-09,
+   "ax_std": 4.714452887647683e-06,
+   "gy_std": 3.905518493703082e-10
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 100,
+   "az_std": 1.423304459958454e-11,
+   "ax_std": 6.977017101537735e-10,
+   "gy_std": 1.7793565895778507e-12
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 200,
+   "az_std": 9.36914828351835e-12,
+   "ax_std": 5.96877654568339e-11,
+   "gy_std": 6.532764790908145e-13
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 400,
+   "az_std": 0.0065006432540107755,
+   "ax_std": 0.004809922060757202,
+   "gy_std": 0.0002389675289287799
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 1000,
+   "az_std": 3.654306939981049e-12,
+   "ax_std": 2.44257970658161e-11,
+   "gy_std": 2.5747342245192204e-13
+  },
+  {
+   "ground": "plane",
+   "wheel": "sphere",
+   "contact": "soft",
+   "phys_hz": 2000,
+   "az_std": 2.7873445717895302e-12,
+   "ax_std": 2.2859434184222327e-11,
+   "gy_std": 1.9437473727891106e-13
+  }
+ ],
+ "converge": {
+  "mean_abs_diff_400_vs_2000": 0.1245615177822886,
+  "mean_abs_diff_1000_vs_2000": 0.023544948453889658,
+  "within_class_seed_spread_2000": 0.33473441216224037,
+  "per_class": {
+   "smooth": {
+    "400": 0.18409944935979378,
+    "1000": 0.020598915277022248,
+    "seed_spread": 0.11588881826202668
+   },
+   "gravel": {
+    "400": 0.07283415812871594,
+    "1000": 0.017356574031867616,
+    "seed_spread": 0.22724865009974665
+   },
+   "cobble": {
+    "400": 0.10149936581233412,
+    "1000": 0.040647516544177004,
+    "seed_spread": 0.4701353600915122
+   },
+   "washboard": {
+    "400": 0.16737328377903699,
+    "1000": 0.019351507792834986,
+    "seed_spread": 0.6596158156256531
+   },
+   "rocky": {
+    "400": 0.09700133183156225,
+    "1000": 0.019770228623546455,
+    "seed_spread": 0.20078341673226327
+   }
+  }
+ }
+}

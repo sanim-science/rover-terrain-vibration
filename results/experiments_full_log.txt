@@ -1,0 +1,35 @@
+{'train': 18521, 'val': 4632, 'test_id': 4636, 'test_speed_gap': 4625, 'test_speed_fast': 4625, 'test_rougher': 4640}
+features A_vibration: 90
+features B_vibration+speed: 91
+features C_per_metre: 43
+A_vibration        RF     test_id          F1=0.902 [0.873 0.925]  rough MAE=0.195 mm (median rel err 13%)
+A_vibration        RF     test_speed_gap   F1=0.849 [0.813 0.872]  rough MAE=0.204 mm (median rel err 15%)
+A_vibration        RF     test_speed_fast  F1=0.273 [0.217 0.324]  rough MAE=0.371 mm (median rel err 33%)
+A_vibration        RF     test_rougher     F1=0.695 [0.649 0.729]  rough MAE=0.637 mm (median rel err 27%)
+A_vibration        linear test_id          F1=0.876 [0.853 0.894]  rough MAE=0.308 mm (median rel err 23%)
+A_vibration        linear test_speed_gap   F1=0.891 [0.87  0.906]  rough MAE=0.270 mm (median rel err 19%)
+A_vibration        linear test_speed_fast  F1=0.570 [0.511 0.624]  rough MAE=0.404 mm (median rel err 32%)
+A_vibration        linear test_rougher     F1=0.776 [0.738 0.805]  rough MAE=0.615 mm (median rel err 22%)
+B_vibration+speed  RF     test_id          F1=0.913 [0.884 0.934]  rough MAE=0.194 mm (median rel err 13%)
+B_vibration+speed  RF     test_speed_gap   F1=0.893 [0.861 0.918]  rough MAE=0.207 mm (median rel err 15%)
+B_vibration+speed  RF     test_speed_fast  F1=0.287 [0.224 0.343]  rough MAE=0.367 mm (median rel err 33%)
+B_vibration+speed  RF     test_rougher     F1=0.717 [0.673 0.753]  rough MAE=0.637 mm (median rel err 27%)
+B_vibration+speed  linear test_id          F1=0.910 [0.885 0.928]  rough MAE=0.310 mm (median rel err 23%)
+B_vibration+speed  linear test_speed_gap   F1=0.933 [0.911 0.95 ]  rough MAE=0.268 mm (median rel err 19%)
+B_vibration+speed  linear test_speed_fast  F1=0.729 [0.682 0.769]  rough MAE=0.414 mm (median rel err 33%)
+B_vibration+speed  linear test_rougher     F1=0.758 [0.72  0.791]  rough MAE=0.617 mm (median rel err 22%)
+C_per_metre        RF     test_id          F1=0.923 [0.901 0.938]  rough MAE=0.182 mm (median rel err 13%)
+C_per_metre        RF     test_speed_gap   F1=0.933 [0.91 0.95]  rough MAE=0.178 mm (median rel err 12%)
+C_per_metre        RF     test_speed_fast  F1=0.801 [0.756 0.837]  rough MAE=0.237 mm (median rel err 16%)
+C_per_metre        RF     test_rougher     F1=0.755 [0.725 0.781]  rough MAE=0.639 mm (median rel err 27%)
+C_per_metre        linear test_id          F1=0.882 [0.858 0.902]  rough MAE=0.313 mm (median rel err 25%)
+C_per_metre        linear test_speed_gap   F1=0.907 [0.884 0.925]  rough MAE=0.314 mm (median rel err 23%)
+C_per_metre        linear test_speed_fast  F1=0.704 [0.654 0.748]  rough MAE=0.323 mm (median rel err 26%)
+C_per_metre        linear test_rougher     F1=0.715 [0.674 0.753]  rough MAE=0.587 mm (median rel err 23%)
+A_vibration RF leave-one-type-out: {'smooth': 0.24, 'gravel': 0.37, 'cobble': 0.48, 'washboard': 0.97, 'rocky': 0.33}
+A_vibration linear leave-one-type-out: {'smooth': 0.35, 'gravel': 0.43, 'cobble': 0.82, 'washboard': 1.05, 'rocky': 0.53}
+B_vibration+speed RF leave-one-type-out: {'smooth': 0.21, 'gravel': 0.37, 'cobble': 0.52, 'washboard': 0.97, 'rocky': 0.32}
+B_vibration+speed linear leave-one-type-out: {'smooth': 0.35, 'gravel': 0.42, 'cobble': 1.01, 'washboard': 1.1, 'rocky': 0.51}
+C_per_metre RF leave-one-type-out: {'smooth': 0.22, 'gravel': 0.38, 'cobble': 0.46, 'washboard': 0.73, 'rocky': 0.33}
+C_per_metre linear leave-one-type-out: {'smooth': 0.32, 'gravel': 0.33, 'cobble': 0.48, 'washboard': 0.96, 'rocky': 0.46}
+EXIT_FEAT 0

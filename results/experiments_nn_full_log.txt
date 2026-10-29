@@ -1,0 +1,22 @@
+raw seed 0: best epochs cls 25, reg 35
+raw seed 1: best epochs cls 13, reg 38
+raw seed 2: best epochs cls 19, reg 36
+MLP_raw      test_id          F1=0.783 seeds [0.779 0.786] CI [0.752 0.809]  rough MAE=0.298 mm (21%)
+MLP_raw      test_speed_gap   F1=0.708 seeds [0.701 0.716] CI [0.674 0.739]  rough MAE=0.309 mm (21%)
+MLP_raw      test_speed_fast  F1=0.468 seeds [0.454 0.484] CI [0.421 0.506]  rough MAE=0.621 mm (41%)
+MLP_raw      test_rougher     F1=0.636 seeds [0.622 0.644] CI [0.599 0.664]  rough MAE=0.687 mm (27%)
+spectrum seed 0: best epochs cls 39, reg 38
+spectrum seed 1: best epochs cls 32, reg 35
+spectrum seed 2: best epochs cls 39, reg 34
+MLP_spectrum test_id          F1=0.889 seeds [0.882 0.894] CI [0.867 0.907]  rough MAE=0.269 mm (19%)
+MLP_spectrum test_speed_gap   F1=0.866 seeds [0.842 0.885] CI [0.846 0.881]  rough MAE=0.267 mm (19%)
+MLP_spectrum test_speed_fast  F1=0.573 seeds [0.54  0.599] CI [0.516 0.619]  rough MAE=0.404 mm (34%)
+MLP_spectrum test_rougher     F1=0.767 seeds [0.754 0.776] CI [0.732 0.797]  rough MAE=0.549 mm (23%)
+cnn seed 0: best epochs cls 16, reg 23
+cnn seed 1: best epochs cls 23, reg 29
+cnn seed 2: best epochs cls 17, reg 28
+CNN_raw      test_id          F1=0.934 seeds [0.926 0.939] CI [0.914 0.948]  rough MAE=0.187 mm (13%)
+CNN_raw      test_speed_gap   F1=0.948 seeds [0.945 0.953] CI [0.935 0.958]  rough MAE=0.182 mm (12%)
+CNN_raw      test_speed_fast  F1=0.575 seeds [0.543 0.603] CI [0.509 0.631]  rough MAE=0.534 mm (31%)
+CNN_raw      test_rougher     F1=0.727 seeds [0.71 0.74] CI [0.693 0.754]  rough MAE=0.503 mm (19%)
+EXIT_NN 0
